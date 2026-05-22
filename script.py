@@ -1,4 +1,5 @@
 import os
+import re
 
 markdown = """
 <div align="center">
@@ -11,6 +12,11 @@ markdown = """
 > 在线阅读：https://kehuan.fun
 >
 > 本readme文件由仓库内script.py脚本自动生成。
+
+
+## 贡献者名单 Contributors
+[![Contributors](https://contrib.rocks/image?repo=VeejaLiu/ScienceFictionCollection)](https://github.com/VeejaLiu/ScienceFictionCollection/graphs/contributors)
+
 """
 
 excludePath = ['venv', '.git', '.idea']
@@ -25,11 +31,15 @@ for f in os.scandir():
 
 author_path_name_list.sort()
 
-markdown += f"""## 目前作家\n"""
+markdown += f"""## 作家\n"""
 for author in author_path_name_list:
-    markdown += f"""- {author}\n"""
+    anchor = author.lower()           # 转小写
+    anchor = re.sub(r'[^\w\s-]', '', anchor)  # 去掉括号等特殊字符
+    anchor = anchor.strip()           # 去掉首尾空格
+    anchor = re.sub(r'\s+', '-', anchor)      # 空格替换为 -
+    markdown += f"""- [{author}](#{anchor})\n"""
 
-markdown += f"""\n## 目前作品：
+markdown += f"""\n## 作品：
 <div style="color:gray">（此顺序只代表本仓库先后的添加顺序）</div>
 
 """

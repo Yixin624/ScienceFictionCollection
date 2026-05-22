@@ -9,21 +9,26 @@
 > 在线阅读：https://kehuan.fun
 >
 > 本readme文件由仓库内script.py脚本自动生成。
-## 目前作家
-- 001 - 刘慈欣(Cixin Liu)
-- 002 - Frank Herbert(弗兰克·赫伯特)
-- 003 - Isaac Asimov(艾萨克·阿西莫夫)
-- 004 - Jules Gabriel Verne(儒勒·加布里埃尔·凡尔纳)
-- 005 - Mary Shelley(玛丽·雪莱)
-- 006 - Ray Douglas Bradbury(雷·道格拉斯·布拉德伯里)
-- 007 - Orson Scott Card(奥森·斯科特·卡德)
-- 008 - Ted Chiang(特德·姜)
-- 009 - Michael Swanwick (迈克尔·斯万维克) 
-- 010 - 王晋康
-- 011 - Andy Weir(安迪·威尔)
-- 012 - Arthur Charles Clarke(亚瑟·查理斯·克拉克)
 
-## 目前作品：
+
+## 贡献者名单 Contributors
+[![Contributors](https://contrib.rocks/image?repo=VeejaLiu/ScienceFictionCollection)](https://github.com/VeejaLiu/ScienceFictionCollection/graphs/contributors)
+
+## 作家
+- [001 - 刘慈欣(Cixin Liu)](#001---刘慈欣cixin-liu)
+- [002 - Frank Herbert(弗兰克·赫伯特)](#002---frank-herbert弗兰克赫伯特)
+- [003 - Isaac Asimov(艾萨克·阿西莫夫)](#003---isaac-asimov艾萨克阿西莫夫)
+- [004 - Jules Gabriel Verne(儒勒·加布里埃尔·凡尔纳)](#004---jules-gabriel-verne儒勒加布里埃尔凡尔纳)
+- [005 - Mary Shelley(玛丽·雪莱)](#005---mary-shelley玛丽雪莱)
+- [006 - Ray Douglas Bradbury(雷·道格拉斯·布拉德伯里)](#006---ray-douglas-bradbury雷道格拉斯布拉德伯里)
+- [007 - Orson Scott Card(奥森·斯科特·卡德)](#007---orson-scott-card奥森斯科特卡德)
+- [008 - Ted Chiang(特德·姜)](#008---ted-chiang特德姜)
+- [009 - Michael Swanwick (迈克尔·斯万维克) ](#009---michael-swanwick-迈克尔斯万维克)
+- [010 - 王晋康](#010---王晋康)
+- [011 - Andy Weir(安迪·威尔)](#011---andy-weir安迪威尔)
+- [012 - Arthur Charles Clarke(亚瑟·查理斯·克拉克)](#012---arthur-charles-clarke亚瑟查理斯克拉克)
+
+## 作品：
 <div style="color:gray">（此顺序只代表本仓库先后的添加顺序）</div>
 
 ### 001 - 刘慈欣(Cixin Liu)
